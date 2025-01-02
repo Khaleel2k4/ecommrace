@@ -34,6 +34,7 @@ document.querySelector('#search-btn').onclick = () => {
     loginForm.classList.toggle('active');
 }
 
+
 window.onscroll = () => {
     searchForm.classList.remove('active');
 }
